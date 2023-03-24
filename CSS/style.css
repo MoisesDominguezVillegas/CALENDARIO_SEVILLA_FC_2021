@@ -1,0 +1,145 @@
+html {
+    background-color:red ;
+    font-size: large;
+}
+
+body {
+  background:url(../IMAGENES/sevi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  -webkit-background-size:cover;
+  -moz-background-size: cover;
+  -moz-background-size: cover;
+  max-height: 3000px;  
+}
+
+hr {
+    border: 5px solid red;
+}
+
+h1,h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #ccc;
+    background: linear-gradient (90deg, #007cf0, #00dfd8);
+    font-family: sans-serif;
+
+    -webkit-text-fill-color: transparent ;
+    -webkit-background-clip: text;
+}
+
+
+.anyo {
+    display: grid;
+    grid-template-columns: repeat (12, 1fr);
+    justify-items: center;
+}
+
+.enero {
+    grid-column-start: 1;
+}
+
+.febrero{
+    grid-column-start: 2;
+    padding-left: 50px;
+    
+}
+
+.marzo {
+    grid-column-start: 3;
+    padding-left: 50px;
+}
+
+.abril {
+    grid-column-start: 4;
+    padding-left: 50px;
+    padding-right: 0;
+}
+
+.junio {
+    padding-left: 50px;
+}
+
+.julio {
+    padding-left: 50px;
+}
+
+.agosto {
+    padding-left: 50px;
+    padding-right: 0;
+}
+
+.octubre {
+    padding-left: 50px;
+}
+
+.noviembre {
+    padding-left: 50px;
+}
+
+.diciembre {
+    padding-left: 50px;
+}
+
+ol {
+    list-style: none;
+    color:whitesmoke;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    padding: 0;
+    font-weight: bold;
+    font-size:larger;
+}
+
+li {
+    text-align: right;
+    
+}
+
+.first-day-enero {
+    grid-column-start: 5;
+}
+
+.first-day-febrero {
+    grid-column-start: 1;
+}
+
+.first-day-abril {
+    grid-column-start: 4;
+}
+
+.first-day-mayo {
+    grid-column-start: 6;
+
+}
+
+.first-day-junio {
+    grid-column-start:2;
+}
+
+.first-day-julio {
+    grid-column-start:4;
+}
+
+.first-day-agosto {
+    grid-column-start:7;
+}
+
+.first-day-septiembre {
+    grid-column-start:3;
+}
+
+.first-day-octubre {
+    grid-column-start:5;
+}
+
+.first-day-diciembre {
+    grid-column-start:3;
+}
+
+.day-name {
+    font-weight: bold;
+    text-align: center;
+    padding-left: 10px;
+}
